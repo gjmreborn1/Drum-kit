@@ -48,6 +48,8 @@ p {
 /* On playing audio */
 .activate {
     border-color: #ffc600;
+    transform: scale(1.1);
+    transition: all 0.7s;
 }
 
 @media (max-width: 1000px) {
