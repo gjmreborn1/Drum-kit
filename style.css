@@ -1,0 +1,51 @@
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    height: 100vh;
+    width: 100%;
+    background: url("https://i.imgur.com/b9r5sEL.jpg") fixed center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+}
+
+.drum-box {
+    width: 8%;
+    border: 6px solid rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.4);
+    text-align: center;
+}
+
+p {
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 10px 0;
+}
+
+.key {
+    font-size: 2rem;
+    color: white;
+}
+
+.description {
+    color: #ffc600;
+}
+
+/* On playing audio */
+.activate {
+    border-color: #ffc600;
+}
